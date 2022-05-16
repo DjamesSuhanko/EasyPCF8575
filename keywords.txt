@@ -1,0 +1,7 @@
+EasyPCF8575	KEYWORD1
+check		KEYWORD2
+findPCFaddr	KEYWORD2
+SEARCH		LITERAL1
+i2c_exists	LITERAL1
+pcf_address	LITERAL1
+

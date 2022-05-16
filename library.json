@@ -1,0 +1,23 @@
+{
+    "name": "EasyPCF8575",
+    "keywords": "i2c, wire, pcf8575, bitwise, expander",
+    "description": "The easiest library for PCF8575",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/DjamesSuhanko/EasyPCF8575"
+    },
+    "authors":
+    {
+        "name": "Djames Suhanko",
+	"email": "djames.suhanko@gmail.com",
+        "url": "https://www.dobitaobyte.com.br",
+        "maintainer": true
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "homepage": "https://www.dobitaobyte.com.br",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
+
