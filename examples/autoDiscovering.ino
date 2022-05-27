@@ -221,7 +221,7 @@ void setup(){
     delay(500);
 
     Serial.print("[383] getRightByteValue()");
-    Serial.println(pcf.getRightByteValue());
+    Serial.println(pcf.getLSBbyteValue());
 }
 
 void loop(){
