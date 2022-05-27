@@ -14,7 +14,7 @@
         "url": "https://www.dobitaobyte.com.br",
         "maintainer": true
     },
-    "version": "1.0.0",
+    "version": "1.1.3",
     "license": "MIT",
     "homepage": "https://www.dobitaobyte.com.br",
     "frameworks": "arduino",
