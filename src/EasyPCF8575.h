@@ -1,6 +1,6 @@
 /*
   EasyPCF8575 - The easiest library for PCF8575.
-  Created by Djames Suhanko, May 5, 2022.
+  Created by Djames Suhanko <djames.suhanko@gmail.com>, May 5, 2022.
   Released into the public domain.
 */
 #ifndef EasyPCF8575_h
@@ -19,8 +19,8 @@ class EasyPCF8575{
 
         uint8_t findPCFaddr();                       //!find and return PCF address
 
-        uint8_t getLeftByteValue();                  //! Returns value of left byte
-        uint8_t getRightByteValue();                 //! Returns value of right byte
+        uint8_t getLSBbyteValue();                  //! Returns value of left byte
+        uint8_t getMSBbyteValue();                 //! Returns value of right byte
 
         uint8_t *getBytesValueAsBytes();             //! Returns an array of two bytes
         uint16_t getBytesValueAsInt();               //! Returns bytes value as int

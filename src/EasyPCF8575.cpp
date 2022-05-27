@@ -91,7 +91,7 @@ uint8_t EasyPCF8575::getLeftBitValue(uint8_t bit0upTo7)
     return 0;
 }
 
-uint8_t EasyPCF8575::getLeftByteValue()
+uint8_t EasyPCF8575::getLSBbyteValue()
 {
     localBuf[0] = 0;
     localBuf[1] = 0;
@@ -104,7 +104,7 @@ uint8_t EasyPCF8575::getLeftByteValue()
     return 0;
 }
 
-uint8_t EasyPCF8575::getRightBitValue(uint8_t bit0upTo7)
+uint8_t EasyPCF8575::getMSBbitValue(uint8_t bit0upTo7)
 {
     localBuf[0] = 0;
     localBuf[1] = 0;
