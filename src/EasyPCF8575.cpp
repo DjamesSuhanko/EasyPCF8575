@@ -328,7 +328,7 @@ void EasyPCF8575::setRightBitUp(uint8_t bit0upTo7)
 
 void EasyPCF8575::startI2C(uint8_t sda_pin, uint8_t scl_pin, uint8_t pcf_addr)
 {
-    Wire.setPins(21,22);
+    Wire.setPins(sda_pin,scl_pin);
     Wire.begin();
     uint8_t addr = this->findPCFaddr();
     this->pcf_address = pcf_addr >126 ? addr : pcf_addr;
